@@ -22,7 +22,7 @@ I'll assume you own the ESP32 Devkit microcontroller like most people.
 
 
 
-The working idea is simple: there is an Ultrasonic sensor mounted on a stepper motor that rotaties 180 degrees and when it detects anything in the range of 20 cm or less(can be adjusted as you like) it stops and the LED on the microcontroller blinks. Everytime it detects something it reverses direction. In the code provided you can easily adjust the microstep configuration for a more precise motion. The Ultrasonic sensor is simply mounted on the stepper motor by a tape.
+The working idea is simple: there is an Ultrasonic sensor mounted on a stepper motor that rotates 180 degrees and when it detects anything in the range of 20 cm or less(can be adjusted as you like) it stops and the LED on the microcontroller blinks. Everytime it detects something it reverses direction. In the code provided, you can easily adjust the microstepping configuration for a more precise motion. The Ultrasonic sensor is simply mounted on the stepper motor by a tape.
 
 
 ## Important Notes
