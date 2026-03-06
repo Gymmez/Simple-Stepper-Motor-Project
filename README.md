@@ -12,7 +12,7 @@ This is a simple project using a Nema 17 Stepper Motor, a A4988 Driver, HC-SR04 
 ## Schematic
 ![Circuit Schematic](schematic.jpg)
 
-When you look at the schematic, it is separated into 4 sections: Main circuit, USB Logic Circuit Power, Auto-Reset Circuit and USB-C_to_UART Circuit. If you already have the ESP32 Devkit board, then your main concern will only be Pin 4, Pin 15, Pin 18, Pin 19,Pin 21, Pin 22 and Pin 23. **Ignore the rest of the pins and the circuits and don't use them**. Otherwise, if you have only the ESP32-WROOM-32 Module and wish to build everything yourself, this schematic would be a good helping reference.
+When you look at the schematic, it is separated into 4 sections: Main circuit, USB Logic Circuit Power, Auto-Reset Circuit and USB-C_to_UART Circuit. If you already have the ESP32 Devkit board, then your main concern will only be IO4, IO15, IO18, IO19, IO21, IO22 and IO23. **Ignore the rest of the pins and the circuits and don't use them**. Otherwise, if you have only the ESP32-WROOM-32 Module and wish to build everything yourself, this schematic would be a good helping reference.
 
 ## Application
 
