@@ -27,7 +27,7 @@ The working idea is simple: there is an Ultrasonic sensor mounted on a stepper m
 
 ## Important Notes
 
-* **Don't forget to set the motor current limit on the A4988 driver first(check tutorials online).VERY IMPORTANT**
+* **Don't forget to set the motor current limit on the A4988 driver first(check tutorials online).*VERY IMPORTANT***
 * **Make sure the motor power, the A4988 driver and the microcontroller have common Ground**
 * **Don't ignore the 100uF capacitor between the motor power source and ground. Every other capacitor can be ignored as it is already added and implemented in the ESP32 Devkit**
 * **Always make sure to read about the stepper motor you want to buy and its driver very well, as ignoring some stuff can be costly and dangerous sometimes**
