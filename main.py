@@ -12,6 +12,8 @@ Echo = Pin(4, Pin.IN)
 Led = Pin(2, Pin.OUT)
 
 Dir.value(0)
+
+#Control the microstepping mode
 Ms1.value(0)
 Ms2.value(1)
 Ms3.value(0)
